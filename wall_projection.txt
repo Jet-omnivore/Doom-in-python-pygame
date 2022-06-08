@@ -1,0 +1,12 @@
+Angle A = Normal Angle
+Angle B = V1 Angle
+Angle C = Angle B - Angle A or (Normal Angle - V1 Angle) or NormalToV1Angle
+Angle D = 90 - Angle C
+
+We want to find the length of normal line or (PR)
+First we find the Angle C by mod(subtracting Angle B by Angle A or vice versa)
+then, we know that the PR is parallel to SR because both lines makes same angle (90) on vertex line(wall line)
+so Angle C is equal to angle (SQP) they are alternate angles
+angle D is equal to 90 - Angle C
+now we can find the length of normal line
+normal line = sin(Angle D) * (Distance from player to V1)
