@@ -24,7 +24,7 @@ class Engine:
 
         self.player = Player()
         self.game_map = Map('E1M1', self)
-        self.wad_reader = WadLoader('assests/DOOM.WAD', self.game_map)
+        self.wad_reader = WadLoader('assets/DOOM.WAD', self.game_map)
         self.renderer = Renderer(self)
 
         # init texture manager
