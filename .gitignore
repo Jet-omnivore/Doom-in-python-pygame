@@ -1,0 +1,9 @@
+*.log
+__pycache__/
+*.pyc
+data/
+assets/
+makefile
+old.py
+wall_projection.png
+ceilingclipheight.png
